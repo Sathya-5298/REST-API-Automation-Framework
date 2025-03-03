@@ -11,7 +11,7 @@ public class SignUpRequest
 	private String mobileNumber;
 	
 	
-	public SignUpRequest(String username, String password, String email, String firstName, String lastName,
+	private SignUpRequest(String username, String password, String email, String firstName, String lastName,
 			String mobileNumber) 
 	{
 		super();

@@ -1,6 +1,7 @@
 package com.api.tests;
 
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.api.base.AuthenticationService;
@@ -12,6 +13,7 @@ import com.api.models.response.UserProfileResponse;
 
 import io.restassured.response.Response;
 
+@Listeners(com.api.listeners.TestListeners.class)
 public class ProfileUpdateTest {
 
 	@Test(description = "Verify if Profile Update API is working")

@@ -1,6 +1,7 @@
 package com.api.tests;
 
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.api.base.AuthenticationService;
@@ -9,6 +10,7 @@ import com.api.models.response.LoginResponse;
 
 import io.restassured.response.Response;
 
+@Listeners(com.api.listeners.TestListeners.class)
 public class LoginAPITest2 
 {
 	
@@ -29,7 +31,7 @@ public class LoginAPITest2
 		
 		Assert.assertTrue(loginResponse.getToken() != null);
 		Assert.assertEquals(loginResponse.getId(), 1);
-		Assert.assertEquals(loginResponse.getEmail(), "disha1234@gmail.com");
+		Assert.assertEquals(loginResponse.getEmail(), "Rajesh12@gmail.com");
 		
 		
 	}
