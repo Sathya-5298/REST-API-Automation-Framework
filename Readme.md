@@ -85,4 +85,4 @@ After test execution, reports will be generated in the report.html file located 
 Logs will be stored in the logs directory as specified in the ./logs/APITest.log
 
 ## Integrated project with Github Actions
-This TestAutomationFramework is integrated with github actions and tests will be executed at 11:30pm IST every single day.
+This APITestAutomationFramework is integrated with github actions and tests will be executed at 11:30pm IST every single day.
