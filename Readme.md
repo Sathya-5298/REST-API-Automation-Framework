@@ -4,7 +4,7 @@ This Java-based REST API Test Automation Framework is designed for efficient and
 It follows the Service Object Model (SOM) Design Pattern, enabling maintainability and modularization. The framework leverages Rest Assured for API testing, TestNG for execution, and integrates with CI/CD pipelines using GitHub Actions.
 # About Me
 
-Hello, I am SathyaMurth D and a Test Automation Engineer with over 3 years of experience with end-to-end testing projects across multiple domains such as retail, luxury fashion, gaming. Expertise in Automation Testing using Selenium WebDriver with Java, Cucumber BDD, TestNG, API testing with Postman and REST Assured, database testing. Embracing a mindset of continuous learning and seeking new opportunities to develop and grow in my role
+Hello, I am SathyaMurth D and a Test Automation Engineer with over 4 years of experience with end-to-end testing projects across multiple domains such as retail, luxury fashion, gaming. Expertise in Automation Testing using Selenium WebDriver with Java, Cucumber BDD, TestNG, API testing with Postman and REST Assured, database testing. Embracing a mindset of continuous learning and seeking new opportunities to develop and grow in my role
 
 
 ## Authors
