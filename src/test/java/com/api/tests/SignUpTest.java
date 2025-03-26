@@ -17,8 +17,8 @@ public class SignUpTest
 	public void createAccountTest() 
 	{
 		
-		SignUpRequest signUpRequest = new SignUpRequest.Builder().UserName("Adam12")
-		.email("adam90@gmail.com").firstName("adam").password("adam123").lastName("Negi").mobileNumber("9898012322").build();
+		SignUpRequest signUpRequest = new SignUpRequest.Builder().UserName("Adam19")
+		.email("adam19@gmail.com").firstName("adam").password("adam19").lastName("AD").mobileNumber("9898032100").build();
 		
 		AuthenticationService authenticationService = new AuthenticationService();
 		Response response = authenticationService.signUp(signUpRequest);
